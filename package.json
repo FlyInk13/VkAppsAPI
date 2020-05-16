@@ -1,27 +1,28 @@
 {
   "name": "vkappsapi",
   "version": "1.0.0",
-  "description": "VK Mini Apps API server",
+  "description": "Simple VK Mini Apps API server",
   "main": "VkAppsApi.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FlyInk13/VkAppsApi.git"
+    "url": "git+https://github.com/FlyInk13/VkAppsAPI.git"
   },
   "keywords": [
-    "http",
-    "server",
-    "promise",
-    "json"
+    "vk",
+    "mini",
+    "apps",
+    "api",
+    "server"
   ],
-  "author": "Flyink13",
+  "author": "FlyInk13",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FlyInk13/VkAppsApi/issues"
+    "url": "https://github.com/FlyInk13/VkAppsAPI/issues"
   },
-  "homepage": "https://github.com/FlyInk13/VkAppsApi#readme",
+  "homepage": "https://github.com/FlyInk13/VkAppsAPI#readme",
   "dependencies": {
     "httpserver": "github:flyink13/httpserver"
   }
