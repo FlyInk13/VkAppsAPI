@@ -37,7 +37,7 @@ class VkAppsApiServer extends HttpServer {
     const url = new URL.parse(req.url, true);
     const search = (url.search || '').substr(1);
     const urlParams = querystring.parse(search);
-    const validSign = this.signVerify(search, this.appSecret);
+    const validSign = this.signVerify(urlParams, this.appSecret);
 
     if (!(validSign || (this.testValidation && urlParams.testValidation === '1'))) {
       throw {
