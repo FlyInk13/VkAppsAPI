@@ -3,7 +3,7 @@
 
 Пример использования:
 ```
-const VkAppsApiServer = require('flyink13/vkappsapi');
+const VkAppsApiServer = require('vkappsapi');
 
 class AppAPI extends VkAppsApiServer {
   api_random(user_id, query) {

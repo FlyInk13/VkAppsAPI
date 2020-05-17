@@ -1,4 +1,4 @@
-const HttpServer = require('flyink13/httpserver');
+const HttpServer = require('httpserver');
 const querystring = require('querystring');
 const crypto = require('crypto');
 const URL = require('url');
